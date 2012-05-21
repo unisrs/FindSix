@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, FindSix!</string>
+    <string name="app_name">FindSix</string>
+    <string name="pass">Pass</string>
+    <string name="draw">Draw</string>
+    <string name="newGame">New Game</string>
+    <string name="resume">Resume</string>
+    <string name="strat">Parent Strategies</string>
+    <string name="rules">Find 6 Rules</string>
+    <string name="ph">Placeholder</string>
+    <string name="gr1">This is a place where we can put the rules for Find 6.   Something like:</string>
+    <string name="gr2">• Keep drawing cards until you have a set that totals 6.\n• When you find 6, pass the phone to the next player. \n• When the cards run out, the person holding the phone is out.   \n• Keep playing until there is only one player left; that person wins</string>
+    <string name="blank"> </string>
+    <string name="gs">Connect to the Center web site with ideas for how to use this game; other games to play; explain the math behind the game.</string>
+</resources>

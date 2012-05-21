@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      android:versionCode="1"
+      android:versionName="1.0" package="org.edGames.findSix">
+
+
+    <application android:label="@string/app_name" android:icon="@drawable/find6">
+        <activity android:name=".FindSix"
+                  android:label="@string/app_name"
+                  android:screenOrientation="landscape" 
+                  android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme.Dialog" android:name=".Rules" android:label="@string/rules"></activity>
+        <activity android:theme="@android:style/Theme.Dialog" android:name=".Strategies" android:label="@string/strat"></activity>
+
+    </application>
+</manifest>
